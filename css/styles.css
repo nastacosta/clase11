@@ -45,7 +45,7 @@ main section article {
 }
 
 .article-envios {
-    background-image: url("/images/delivery.jpg");
+    background-image: url("../images/delivery.jpg");
     background-size: cover;
 }
 
