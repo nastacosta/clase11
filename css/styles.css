@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: roboto;
+    font-weight: 300;
+}
+
+html {
+    background: #eeeeee;
+}
+
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.4vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header img {
+    height: 8vw;
+    padding: 1.5vw;
+}
+
+header nav {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+main section {
+    margin-block: 3.3vw;
+    margin-inline: 1.5vw;
+    height: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section article {
+    width: 49.5%;
+    border-radius: 0.5vw;
+}
+
+.article-envios {
+    background-image: url("/images/delivery.jpg");
+    background-size: cover;
+}
+
+.article-envios h2 {
+    color: #FC200C;
+    font-size: 2.35vw;
+    font-weight: 600;
+    margin-top: 3vw;
+    text-indent: 2.5vw;
+}
+
+.article-envios h2 span {
+    font-weight: 600;
+    color: white;
+}
+
+.article-top {
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.article-top ol, .article-top img {
+    height: 70%;
+    width: 49%;
+}
+
+.article-top img {
+    object-fit: scale-down;
+    height: 35%;
+    align-self: center;
+}
+
+.article-top h2 {
+    font-weight: 600;
+    color: #FC200C;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 3vw;
+    width: 100%;
+    text-align: center;
+
+}
+
+.article-top ol {
+    font-size: 1.6vw;
+    line-height: 3vw;
+    margin-left: 7vw;
+}
+
+ol li {
+    font-weight: 600;
+}
+
+ol h3 {
+    font-weight: 600;
+    padding-bottom: 1vw;
+}
+
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.4vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2vw;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 8vw;
+    padding: 1.5vw;
+}
